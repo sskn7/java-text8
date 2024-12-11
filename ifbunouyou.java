@@ -62,7 +62,7 @@ public class ifbunouyou {
 		//そうでない場合で７７の時は喜寿、
 		//８８の時は米寿と表示
 		//それ以外は成人と表示
-		int number = 88;
+		int number = 110;
 		if (number <= 100) {
 			if (number < 20) {
 				System.out.println("未成年");
@@ -74,6 +74,8 @@ public class ifbunouyou {
 				System.out.println("成人");
 			}
 		}
+		//１００以上の場合は何も表示されない
+		
 	}
 
 }
